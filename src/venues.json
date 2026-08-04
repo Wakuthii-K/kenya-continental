@@ -1,0 +1,470 @@
+[
+  {
+    "cat": "recommended",
+    "name": "Padel (Chandarana Rhapta Road)",
+    "desc": "Popular indoor/outdoor padel tennis courts at Rhapta Square, just down the road from the hotel. Courts are well-maintained and bookable by the hour. A great way to start the morning or burn off a long lunch.",
+    "transport": "Walk (~5–7 min)",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Padel+Chandarana+Rhapta+Road+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "ibis Styles (Saturday Night Live Band)",
+    "desc": "Every Saturday evening, the ibis Styles hotel on Rhapta Road hosts a live band that draws a loyal local crowd. The energy is infectious, the drinks are cold, and the setting is relaxed enough to stay late. One of the best weekend nights within walking distance.",
+    "transport": "Walk (~6–8 min)",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=ibis+Styles+Nairobi+Westlands"
+  },
+  {
+    "cat": "recommended",
+    "name": "Drunken Lectures (Beer District)",
+    "desc": "Every Monday night at Beer District, someone brilliant stands up and gives a talk while the audience drinks craft beer. Topics range from astrophysics to Kenyan hip-hop history. It’s free, informal, and genuinely one of the most interesting things happening in Nairobi on a weeknight.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Beer+District+Westlands+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Siha Yoga Place",
+    "desc": "A calm, well-run yoga studio tucked inside ABC Place on Waiyaki Way. They offer a range of classes from gentle Hatha to power Vinyasa, suitable for beginners and experienced practitioners alike. A welcome reset after a day of exploring the city.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=ABC+Place+Waiyaki+Way+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Beit e Selam",
+    "desc": "A beautifully designed restaurant serving Mediterranean and Middle Eastern dishes with real depth of flavour. The hummus, grilled halloumi, and lamb kofta are standouts. The garden courtyard setting makes it feel like a quiet escape from the city.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Beit+e+Selam+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Furusato Japanese Restaurant",
+    "desc": "One of Nairobi’s longest-running Japanese restaurants, known for its authenticity. The sushi is fresh, the teppanyaki is theatrical, and the menu runs deep enough to reward repeat visits. A favourite among the Japanese expat community, which tells you everything.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Furusato+Japanese+Restaurant+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Unseen Nairobi",
+    "desc": "An independent rooftop cinema screening art-house, African, and global indie films under the stars. The cocktail bar is excellent, the crowd is creative, and the programming is thoughtful. Check their schedule — screenings sell out quickly.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Unseen+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Monday Movie Nights at K1 Klub House",
+    "desc": "Every Monday, K1 sets up an outdoor screen and projects a film for the crowd. It’s free, the vibe is relaxed, and the drinks are affordable. Bring a light jacket — Nairobi evenings cool down faster than you expect.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=K1+Klub+House+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Habesha Ethiopian Restaurant",
+    "desc": "Traditional Ethiopian dining in a peaceful garden setting. The injera is spongy and sour in all the right ways, the tibs are richly spiced, and eating with your hands from a shared platter makes the whole meal feel communal. Vegetarian options are excellent.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Habesha+Ethiopian+Restaurant+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Nargis Restaurant Lavington",
+    "desc": "A cozy neighbourhood spot in Lavington that’s earned a devoted following for its Masala Chips and Tandoori Chicken. The portions are generous, the spicing is bold, and the prices are reasonable. Perfect for a flavour-packed casual dinner.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nargis+Restaurant+Lavington+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Gochi Sake",
+    "desc": "A refined sake bar and small-plates restaurant offering a curated selection of Japanese sakes alongside inventive bites. The atmosphere is intimate and the staff are knowledgeable enough to guide you through unfamiliar pairings. A standout for date nights.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gichi+Sake+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "A Little Bit of Everything (A.B.O.E)",
+    "desc": "A trendy gastropub that lives up to its name with a menu spanning burgers, sushi, tacos, and more. The craft cocktails are creative and well-made, and the atmosphere is lively without being overwhelming. Great for groups who can’t agree on a cuisine.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=ABOE+Restaurant+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Improv Nairobi",
+    "desc": "A creative event space and community initiative putting on live comedy, spoken word, and variety shows. The performers are local, the energy is electric, and you’ll see a side of Nairobi’s arts scene that most visitors miss entirely. Check their IG for upcoming shows.",
+    "ig": "https://instagram.com/improvinnairobi",
+    "igHandle": "@improvinnairobi",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Improve+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Birds of Paradise",
+    "desc": "A boutique wellness and lifestyle venue offering everything from sound baths to breathwork sessions. The space is beautifully curated, the facilitators are warm and skilled, and the community around it is genuinely welcoming. Worth checking their schedule for upcoming workshops.",
+    "ig": "https://instagram.com/birdsofparadise_ke",
+    "igHandle": "@birdsofparadise_ke",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Birds+of+Paradise+Nairobi"
+  },
+  {
+    "cat": "wellness",
+    "name": "Siha Yoga",
+    "desc": "A serene yoga studio at ABC Place on Waiyaki Way offering daily classes across multiple disciplines. The instructors are experienced and attentive, and the studio is clean and well-equipped. Walk-ins welcome, but booking ahead guarantees your mat.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Siha+Yoga+ABC+Place+Nairobi"
+  },
+  {
+    "cat": "wellness",
+    "name": "Birds of Paradise",
+    "desc": "A holistic wellness space hosting regular sound healing, breathwork, and meditation sessions. The setting feels worlds away from Nairobi’s bustle, and the community is inclusive and grounding. Check their Instagram for the weekly schedule.",
+    "ig": "https://instagram.com/birdsofparadise_ke",
+    "igHandle": "@birdsofparadise_ke",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Birds+of+Paradise+Nairobi"
+  },
+  {
+    "cat": "nightlife",
+    "name": "The Alchemist",
+    "desc": "Nairobi’s most iconic open-air nightlife compound on Parklands Road. Multiple bars, food trucks, live DJs, and a wonderfully diverse crowd make it feel like a festival every weekend. Salsa Mondays are legendary, and the energy runs late into the night.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Alchemist+Parklands+Road+Nairobi"
+  },
+  {
+    "cat": "nightlife",
+    "name": "KODA Nairobi",
+    "desc": "A newer, more intimate lounge and nightlife spot on Mkungu Close with a modern design sensibility. The cocktails are well-crafted, the music leans electronic and Afrobeat, and the crowd is stylish. A good pick for a more curated night out.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=KODA+Nairobi+Mkungu+Close"
+  },
+  {
+    "cat": "nightlife",
+    "name": "Nairobi Street Kitchen",
+    "desc": "A multi-level outdoor destination on Mpaka Road combining street food vendors, cocktail bars, and a dance floor. Thursday is the legendary salsa and bachata night that packs the place. Come hungry, stay for the music.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nairobi+Street+Kitchen+Mpaka+Road"
+  },
+  {
+    "cat": "nightlife",
+    "name": "Milan Lounge",
+    "desc": "An upscale lounge in Mirage Tower on Westlands Road known for premium shisha, strong cocktails, and a well-dressed crowd. Live entertainment on select nights and a polished Sunday brunch. Open Wednesday through Sunday.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Milan+Lounge+Mirage+Tower+Nairobi"
+  },
+  {
+    "cat": "nightlife",
+    "name": "Cavalli @ The Manor",
+    "desc": "A high-energy nightclub and lounge at 73 Westlands Road with a live band on Thursdays and top DJs spinning on weekends. The cocktails are surprisingly affordable, and the loyal crowd brings serious Friday and Saturday night energy.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cavalli+The+Manor+Westlands+Road"
+  },
+  {
+    "cat": "nightlife",
+    "name": "K1 Klub House",
+    "desc": "Nairobi’s beloved reggae institution, open 24 hours. Live bands play on Sundays, the drinks are reasonably priced, and the atmosphere is authentically local. Multiple bars spread across an open-air compound that feels like its own little neighbourhood.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=K1+Klub+House+Westlands"
+  },
+  {
+    "cat": "nightlife",
+    "name": "Ciel Lounge",
+    "desc": "A sophisticated rooftop lounge at Fortis Tower on Woodvale Grove with excellent cocktails and multiple seating areas. The atmosphere is refined but not stiff, the food is solid, and the service is attentive. Closed Mondays.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ciel+Lounge+Fortis+Tower+Nairobi"
+  },
+  {
+    "cat": "nightlife",
+    "name": "11:11 Nightclub",
+    "desc": "A high-energy nightclub on the 3rd floor of BroadWalk Mall with outstanding sound and lighting systems. Open Thursday through Sunday from 10 PM. No food service, so eat before you arrive — but once you’re in, the music carries the night.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=11:11+Nightclub+Broadwalk+Mall+Nairobi"
+  },
+  {
+    "cat": "food",
+    "name": "Kosewe (Ranalo Foods)",
+    "desc": "Right here in the Kenya Continental compound. Classic Kenyan cuisine at its finest — the fried tilapia, ugali, and sukuma wiki are exactly what locals eat at home, only better. A must-try for any guest who wants to taste real Nairobi.",
+    "transport": "Walk (On-site / same compound)",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kosewe+Ranalo+Foods+Nairobi"
+  },
+  {
+    "cat": "food",
+    "name": "Artcaffe (Rhapta Road)",
+    "desc": "A reliable café-bistro just minutes from the hotel, serving everything from morning coffee and fresh pastries to full dinners and cocktails. The menu is broad, the quality is consistent, and the outdoor terrace is a pleasant spot to people-watch.",
+    "transport": "Walk (~2–5 min)",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Artcaffe+Rhapta+Road+Nairobi"
+  },
+  {
+    "cat": "food",
+    "name": "Romo House Restaurant & Lounge",
+    "desc": "A warm, relaxed dining spot at 30 Muthithi Road with a menu that delivers on flavour. The grilled red snapper and coconut rice are highlights, and the background music keeps things mellow. Ideal for a quiet dinner or a date night close to the hotel.",
+    "transport": "Walk (~8–10 min)",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Romo+House+30+Muthithi+Road+Nairobi"
+  },
+  {
+    "cat": "food",
+    "name": "The Node",
+    "desc": "A lush garden restaurant and lounge off Waiyaki Way with multiple bars, screens for sports, and a menu anchored by excellent pizzas and creative cocktails. Open from 6:30 AM to 2 AM daily, it works for breakfast, lunch, dinner, or a late-night drink.",
+    "transport": "Walk (~8–10 min)",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Node+Woodvale+Close+Nairobi"
+  },
+  {
+    "cat": "food",
+    "name": "Pili Restaurant",
+    "desc": "A contemporary fine-dining experience inside GTC Mall with generous portions and impeccable service. Their soups — particularly the pumpkin-potato and mushroom — are standouts. Beautiful views and booth seating make it worth booking ahead.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pili+Restaurant+GTC+Mall+Westlands"
+  },
+  {
+    "cat": "food",
+    "name": "INTI — A Nikkei Experience",
+    "desc": "High-end Japanese-Peruvian fusion at Delta Corner on Waiyaki Way. The ceviches are bright and precise, the maki rolls are inventive, and the cocktail programme draws from both traditions. One of the more distinctive dining experiences in Westlands.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=INTI+Delta+Offices+Waiyaki+Way"
+  },
+  {
+    "cat": "food",
+    "name": "Beit e Selam",
+    "desc": "A garden-style Middle Eastern and Mediterranean venue in Westlands with a menu built around sharing plates. The mezze spread is generous, the grills are done right, and the courtyard setting makes a weeknight dinner feel like an occasion.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Beit+e+Selam+Westlands+Nairobi"
+  },
+  {
+    "cat": "food",
+    "name": "Anghiti Indian Restaurant",
+    "desc": "Traditional Indian fine dining at Rehema House in Westlands. The tandoori dishes come out of the clay oven with real smoke and char, the curries are rich without being heavy, and the naan is made fresh to order. A reliable favourite for spice lovers.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Anghiti+Indian+Restaurant+Rehema+Westlands"
+  },
+  {
+    "cat": "food",
+    "name": "270 Rooftop",
+    "desc": "A rooftop lounge and restaurant with sweeping panoramic views of the Nairobi skyline. The cocktails are well-mixed, the small plates are shareable, and the sunset hour is worth planning around. Best enjoyed in the evening when the city lights come on.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=270+Rooftop+Nairobi"
+  },
+  {
+    "cat": "food",
+    "name": "Sayari All Day Dining",
+    "desc": "A 24-hour restaurant inside PrideInn Westlands serving Indian and continental dishes with generous portions. The late-night menu is a lifesaver after a long evening out, and the staff are consistently attentive. Perfect for group celebrations too.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sayari+All+Day+Dining+PrideInn+Westlands"
+  },
+  {
+    "cat": "food",
+    "name": "About Thyme",
+    "desc": "One of Nairobi’s most celebrated restaurants, set in a charming garden on Eldama Ravine Road. The teriyaki duck, moussaka, and ribs are perennial favourites, and the weekend brunch draws a loyal crowd. Closed Mondays.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=About+Thyme+Eldama+Ravine+Road"
+  },
+  {
+    "cat": "food",
+    "name": "Bao Box",
+    "desc": "A playful, interactive café where you can dig into fresh steamed bao buns while challenging your table to a board game. The concept is fun, the food is surprisingly good, and it’s a refreshing change from the typical restaurant format.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bao+Box+Nairobi"
+  },
+  {
+    "cat": "food",
+    "name": "Hashmi Barbeque",
+    "desc": "A Nairobi institution at BroadWalk Mall, famous for its chooza chicken, spiced fries, and smoky Indian-style BBQ. The flavours are bold, the portions are huge, and the queues tell you everything about the quality. Come with an appetite.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hashmi+Barbeque+Broadwalk+Mall+Nairobi"
+  },
+  {
+    "cat": "cafe",
+    "name": "Biscotti Café",
+    "desc": "A warm neighbourhood café on Muthithi Road with excellent sambusas, margarita pizza, and a Lotus cheesecake that keeps people coming back. Perfect for a solo coffee date or a relaxed family lunch. The staff are genuinely friendly.",
+    "transport": "Walk (~8–10 min)",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Biscotti+Cafe+Muthithi+Road+Nairobi"
+  },
+  {
+    "cat": "cafe",
+    "name": "The Good Grain",
+    "desc": "A specialty coffee and pastry shop on the Slip Road off Waiyaki Way with carefully sourced beans and freshly baked goods. The space is small and focused, the baristas know their craft, and the pastries disappear fast — go early.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Good+Grain+Waiyaki+Way+Nairobi"
+  },
+  {
+    "cat": "cafe",
+    "name": "Connect Coffee Roasters",
+    "desc": "Nairobi’s specialty coffee temple on Chiromo Road. Single-origin pour-overs from Nyeri, Kilimanjaro blends, and baristas who genuinely care about extraction. Great wifi and power sockets make it a solid workspace too. Try the Kilimanjaro blend.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Connect+Coffee+Roasters+Chiromo+Road"
+  },
+  {
+    "cat": "cafe",
+    "name": "Café Kaya",
+    "desc": "A rustic, homely café on the Slip Road off Waiyaki Way with board games, happy-hour cocktails (3 for KES 1,000), loaded cheesy fries, and samosas. The atmosphere is laid-back and genuinely cozy. Ideal for a quiet date or an afternoon with friends.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cafe+Kaya+Slip+Road+Waiyaki+Way"
+  },
+  {
+    "cat": "cafe",
+    "name": "Black Olive",
+    "desc": "A modern café on the 2nd floor of BroadWalk Mall with serious dark roast coffee and excellent avocado toast. It’s a reliable breakfast and lunch spot in the Parklands area, with a clean aesthetic and quick service.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Black+Olive+Broadwalk+Mall+Nairobi"
+  },
+  {
+    "cat": "cafe",
+    "name": "Sip Spell Coffee Co.",
+    "desc": "A charming outdoor café in Westlands that doubles as a fully vegetarian spot. The cinnamon buns are addictive, the Kenyan chai is brewed properly, and the shaded garden seating makes it perfect for a slow morning read or remote work session.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sip+Spell+Coffee+Co+Westlands"
+  },
+  {
+    "cat": "cafe",
+    "name": "Midi Café & Patisserie",
+    "desc": "French-inspired bakery and café inside the JW Marriott Hotel on Chiromo Lane. The pastries are handcrafted, the coffee is expertly brewed, and the setting has that polished hotel-lobby elegance. Perfect for a business meeting or an afternoon treat.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Midi+Cafe+JW+Marriott+Nairobi"
+  },
+  {
+    "cat": "cafe",
+    "name": "Artisan Blend Café",
+    "desc": "A laid-back coffee lounge at Principal Place on School Lane with warm service and a welcoming atmosphere. Unusually, it stays open until 12:30 AM, making it one of Nairobi’s few late-night coffee options. Good food too.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Artisan+Blend+Cafe+Principal+Place+Nairobi"
+  },
+  {
+    "cat": "shopping",
+    "name": "Westlands Square",
+    "desc": "A convenient shopping strip on Ring Road Parklands within walking distance of the hotel. It has a Quickmart supermarket, Java House, KFC, Optica, a spa, a salon, and a hospital all under one roof. Good for quick errands.",
+    "transport": "Walk (~8–10 min)",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Westlands+Square+Ring+Road+Parklands"
+  },
+  {
+    "cat": "shopping",
+    "name": "Sarit Centre",
+    "desc": "One of Nairobi’s largest and most established malls on Lower Kabete Road. It has a cinema, bowling alley, rooftop garden, dozens of retail stores, restaurants, and a major supermarket. A one-stop destination that could easily fill an afternoon.",
+    "transport": "Uber / Boda Boda (~12–15 min walk)",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sarit+Centre+Lower+Kabete+Road"
+  },
+  {
+    "cat": "shopping",
+    "name": "Westgate Shopping Mall",
+    "desc": "A premium lifestyle mall on Mwanzi Road with international brands like Tommy Hilfiger, Hugo Boss, Mango, and Swarovski. The restaurants are excellent, the cinema is modern, and there’s a weekly Maasai market worth timing your visit for.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Westgate+Shopping+Mall+Mwanzi+Road"
+  },
+  {
+    "cat": "culture",
+    "name": "Geco Café (Kingara Road)",
+    "desc": "An intimate venue on Kingara Road known for live jazz and acoustic band performances. The setting is warm and unpretentious, the musicianship is high, and the cocktails are good. Check ahead for the performance schedule — it fills up on popular nights.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Geco+Cafe+Kingara+Road+Nairobi"
+  },
+  {
+    "cat": "culture",
+    "name": "Suave Restaurant & Lounge",
+    "desc": "A contemporary dining spot that doubles as a cultural venue, hosting live music and art events. The food is solid, the interiors are designed with local artists’ work, and the overall vibe feels like Nairobi’s creative class at home.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Suave+Restaurant+Nairobi"
+  },
+  {
+    "cat": "culture",
+    "name": "Unseen Nairobi",
+    "desc": "An independent rooftop cinema and cultural space showing African and global art films under the open sky. The cocktail programme is thoughtful, the audience is engaged, and the screenings are curated with real care. One of the city’s most original cultural spaces.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Unseen+Nairobi"
+  },
+  {
+    "cat": "culture",
+    "name": "Afrika House (Holmes a Court Gallery)",
+    "desc": "A private gallery showcasing contemporary East African fine art in a beautifully converted space. The exhibitions rotate regularly, the curation is strong, and visiting feels like stepping into the Nairobi art world’s living room. Call ahead to confirm hours.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Afrika+House+Karen+Nairobi"
+  },
+  {
+    "cat": "culture",
+    "name": "Drunken Lectures",
+    "desc": "Every Monday at Beer District, someone gives an unscripted talk on a fascinating topic while the audience drinks craft beer. The subjects are unpredictable, the speakers are passionate, and the discussions that follow are half the fun. Free entry.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Beer+District+Westlands+Nairobi"
+  },
+  {
+    "cat": "culture",
+    "name": "Circle Art Gallery",
+    "desc": "One of East Africa’s leading contemporary art galleries, located on Riara Road. The exhibitions spotlight emerging and established Kenyan and regional artists, and the space itself is worth the visit. Monthly openings are social occasions in their own right.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Circle+Art+Gallery+Riara+Road+Nairobi"
+  },
+  {
+    "cat": "culture",
+    "name": "Monday Movie Nights at K1",
+    "desc": "A weekly outdoor screening night at K1 Klub House in Westlands. The atmosphere is communal, the drinks are cheap, and it’s a genuinely fun way to start the week. Screenings begin after dark — grab a seat early for the best view.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=K1+Klub+House+Ojijo+Road"
+  },
+  {
+    "cat": "culture",
+    "name": "Museum of Illusions",
+    "desc": "An interactive optical illusion museum at Laxcon Court in Parklands that’s great for all ages. The exhibits are fun, the photo opportunities are endless, and you’ll need about an hour to see everything. Rated 4.7 stars for a reason.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Museum+of+Illusions+Laxcon+Court+Nairobi"
+  },
+  {
+    "cat": "culture",
+    "name": "National Museum of Kenya",
+    "desc": "Kenya’s flagship museum on Museum Hill, covering human evolution, archaeology, natural history, and contemporary art. The Joy Adamson exhibit and Hall of Mammals are highlights. Allow 2–3 hours, and note that the Nairobi Snake Park is included in your ticket.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=National+Museum+of+Kenya+Museum+Hill"
+  },
+  {
+    "cat": "culture",
+    "name": "Nairobi Gallery",
+    "desc": "A historic 1913 colonial building in the CBD housing the Murumbi African Heritage Collection — traditional textiles, masks, paintings, and artefacts from across the continent. Entry is very affordable via eCitizen, and the building itself is a landmark.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nairobi+Gallery+Kenyatta+Avenue"
+  },
+  {
+    "cat": "outdoor",
+    "name": "Karura Forest (Amani Garden)",
+    "desc": "Over 1,000 hectares of indigenous forest just minutes north of Westlands with walking, running, and cycling trails, waterfalls, and a peaceful picnic garden. No single-use plastics are allowed inside. One of Nairobi’s finest escapes from the city’s pace.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Amani+Garden+Karura+Forest+Nairobi"
+  },
+  {
+    "cat": "outdoor",
+    "name": "Nairobi Arboretum",
+    "desc": "A peaceful botanical garden off State House Road with over 300 tree species, resident monkeys, and quiet walking paths. Popular with joggers, families, and birdwatchers, it’s the kind of place where a morning walk can reset your entire day. Pet-friendly.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nairobi+Arboretum+Arboretum+Road"
+  },
+  {
+    "cat": "outdoor",
+    "name": "Nairobi National Park",
+    "desc": "The only national park inside a capital city in the world. Lions, rhinos, giraffes, buffaloes, and zebras roam freely with the Nairobi skyline as a backdrop. Half-day game drives are available, and our front desk can arrange a morning safari departing at 6 AM.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nairobi+National+Park+Main+Gate"
+  },
+  {
+    "cat": "outdoor",
+    "name": "Giraffe Centre",
+    "desc": "A conservation sanctuary on Duma Road in Langata where you can feed endangered Rothschild giraffes from a raised platform, eye to eye. The visit takes about 30 minutes and includes a nature trail and café. Card payment only — no cash.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Giraffe+Centre+Duma+Road+Langata"
+  },
+  {
+    "cat": "outdoor",
+    "name": "Oloolua Nature Trail",
+    "desc": "A forested hiking trail on Karen Road with waterfalls, caves, and mixed terrain that’s both scenic and adventurous. Bikes are available for hire, and entry is via eCitizen. Allow 2–3 hours for the full loop — it’s a wonderful half-day outdoor experience.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Oloolua+Nature+Trail+Karen+Road"
+  },
+  {
+    "cat": "karen",
+    "name": "Sheldrick Elephant Orphanage",
+    "desc": "A world-famous sanctuary for rescued elephant calves in Langata. The visiting window is strictly 11:00 AM – 12:00 PM, and advance booking is required. Watching the baby elephants mud-bathe and play is one of Nairobi’s most moving experiences. Don’t miss it.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sheldrick+Wildlife+Trust+Elephant+Orphanage+Nairobi"
+  },
+  {
+    "cat": "karen",
+    "name": "Giraffe Centre",
+    "desc": "A conservation sanctuary dedicated to Rothschild giraffes with hand-feeding platforms that put you at eye level with these gentle giants. The attached nature trail is worth exploring, and the on-site café serves decent coffee. Family-friendly and unforgettable.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Giraffe+Centre+Duma+Road+Langata"
+  },
+  {
+    "cat": "karen",
+    "name": "Afrika House (Holmes a Court Gallery)",
+    "desc": "An exclusive fine art destination in Karen showcasing curated East African collections in a stunning private setting. The gallery rotates exhibitions regularly and offers a more intimate experience than the larger city galleries. Call ahead to arrange a visit.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Afrika+House+Karen+Nairobi"
+  }
+]
