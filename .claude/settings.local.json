@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(gh auth:*)"
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)",
+      "Read(//c/Users/Administrator/**)",
+      "Bash(mv nairobi-guest-guide kenya-continental)",
+      "Bash(npm run:*)",
+      "Bash(vercel:*)",
+      "Bash(nslookup:*)",
+      "Bash(curl:*)"
     ]
   }
 }

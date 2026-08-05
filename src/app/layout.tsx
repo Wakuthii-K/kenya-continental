@@ -16,7 +16,7 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "Kenya Continental Hotel — Nairobi Guest Guide",
+  title: "Kenya Continental — Nairobi Guest Guide",
   description:
     "Your curated guide to Nairobi's best restaurants, nightlife, cafes, shopping, culture, wellness, and outdoor activities.",
 };

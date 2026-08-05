@@ -232,55 +232,56 @@ export default function GuestGuide() {
               {/* Section Header */}
               <div
                 style={{
-                  padding: "28px 28px 20px",
+                  padding: "36px 28px 28px",
                   background: cat.headerBg,
                   color: "#f7f4ee",
+                  position: "relative",
+                  overflow: "hidden",
                 }}
               >
+                {/* Large decorative icon */}
                 <div
-                  className="text-[11px] uppercase mb-1.5"
-                  style={{ letterSpacing: 3, opacity: 0.6 }}
+                  style={{
+                    position: "absolute",
+                    right: 20,
+                    top: "50%",
+                    transform: "translateY(-50%)",
+                    fontSize: 80,
+                    opacity: 0.08,
+                    lineHeight: 1,
+                    pointerEvents: "none",
+                  }}
                 >
                   {cat.icon}
                 </div>
                 <div
-                  className="font-[var(--font-cormorant)] text-[26px] font-semibold"
+                  className="text-[11px] uppercase tracking-[4px]"
+                  style={{ opacity: 0.5 }}
+                >
+                  {cat.icon}
+                </div>
+                <div
+                  className="font-[var(--font-cormorant)] text-[30px] font-semibold mt-2"
                   style={{ letterSpacing: "0.5px" }}
                 >
                   {cat.label}
                 </div>
+                <div
+                  className="mt-3"
+                  style={{
+                    width: 32,
+                    height: 2,
+                    background: "#a8703f",
+                  }}
+                />
                 {cat.note && (
                   <div
-                    className="font-[var(--font-cormorant)] italic text-[14px] leading-[1.55] mt-2.5"
+                    className="font-[var(--font-cormorant)] italic text-[14px] leading-[1.55] mt-3"
                     style={{ opacity: 0.85 }}
                   >
                     {cat.note}
                   </div>
                 )}
-              </div>
-
-              {/* Image Placeholder */}
-              <div
-                className="flex items-center justify-center"
-                style={{
-                  height: 180,
-                  margin: "0 28px",
-                  borderRadius: 4,
-                  background:
-                    "repeating-linear-gradient(135deg,#e4ddd0,#e4ddd0 12px,#dcd3c3 12px,#dcd3c3 24px)",
-                }}
-              >
-                <span
-                  className="font-mono text-[11px]"
-                  style={{
-                    color: "#8a7d6b",
-                    background: "rgba(255,255,255,0.75)",
-                    padding: "5px 12px",
-                    borderRadius: 3,
-                  }}
-                >
-                  photo — {cat.label}
-                </span>
               </div>
 
               {/* Venue List */}
