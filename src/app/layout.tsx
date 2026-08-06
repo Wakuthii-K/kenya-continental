@@ -32,6 +32,9 @@ export const metadata: Metadata = {
   title: "Kenya Continental Hotel — Westlands, Nairobi",
   description:
     "Family-owned Bed & Breakfast in Westlands, Nairobi. Since 1982.",
+  icons: {
+    icon: "/Kenya-Continental-Hotel-Embroidery-Fern-Icon-Black.png",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
