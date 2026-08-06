@@ -530,7 +530,7 @@ function Footer() {
 
 export default function LandingPage() {
   return (
-    <div style={{ maxWidth: 1280, margin: "0 auto", background: "#fff" }}>
+    <div style={{ background: "#fff" }}>
       <NavBar />
       <Hero />
       <About />
