@@ -78,7 +78,7 @@ a:hover {
 
 .lp-hero {
   position: relative;
-  height: 600px;
+  height: 100vh;
   overflow: hidden;
 }
 .lp-hero h1 {
@@ -219,7 +219,7 @@ a:hover {
   }
 
   .lp-hero {
-    height: 400px;
+    height: 100svh;
   }
   .lp-hero h1 {
     font-size: 32px;
