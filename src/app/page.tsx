@@ -1,5 +1,5 @@
-import GuestGuide from "./GuestGuide";
+import LandingPage from "./LandingPage";
 
 export default function Home() {
-  return <GuestGuide />;
+  return <LandingPage />;
 }

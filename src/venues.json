@@ -9,14 +9,14 @@
   {
     "cat": "recommended",
     "name": "ibis Styles (Saturday Night Live Band)",
-    "desc": "Every Saturday evening, the ibis Styles hotel on Rhapta Road hosts a live band that draws a loyal local crowd. The energy is infectious, the drinks are cold, and the setting is relaxed enough to stay late. One of the best weekend nights within walking distance.",
-    "transport": "Walk (~6–8 min)",
+    "desc": "Ibis Styles across from our hotel hosts a live band that draws a loyal local crowd. The energy is infectious, the drinks are cold and the setting is relaxed enough to stay late and crawl back to your room.",
+    "transport": "Walk (~1 min)",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=ibis+Styles+Nairobi+Westlands"
   },
   {
     "cat": "recommended",
     "name": "Drunken Lectures (Beer District)",
-    "desc": "Every Monday night at Beer District, someone brilliant stands up and gives a talk while the audience drinks craft beer. Topics range from astrophysics to Kenyan hip-hop history. It’s free, informal, and genuinely one of the most interesting things happening in Nairobi on a weeknight.",
+    "desc": "Every Monday night at Beer District, someone brilliant stands up and gives a talk while the audience drinks craft beer. Topics range from astrophysics to Kenyan hip-hop history. It’s free, informal, and genuinely one of the most interesting things happening in Nairobi on a weeknight. Walk to the venue and take a bodaboda back.",
     "transport": "Uber / Boda Boda",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Beer+District+Westlands+Nairobi"
   },
@@ -30,7 +30,7 @@
   {
     "cat": "recommended",
     "name": "Beit e Selam",
-    "desc": "A beautifully designed restaurant serving Mediterranean and Middle Eastern dishes with real depth of flavour. The hummus, grilled halloumi, and lamb kofta are standouts. The garden courtyard setting makes it feel like a quiet escape from the city.",
+    "desc": "Food and drinks like their name are a reflection of Nairobi and influenced by the many culinary accents of the African continent. Great place to have a coffee, work or catch up with friends.",
     "transport": "Uber / Boda Boda",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Beit+e+Selam+Nairobi"
   },
@@ -51,14 +51,14 @@
   {
     "cat": "recommended",
     "name": "Monday Movie Nights at K1 Klub House",
-    "desc": "Every Monday, K1 sets up an outdoor screen and projects a film for the crowd. It’s free, the vibe is relaxed, and the drinks are affordable. Bring a light jacket — Nairobi evenings cool down faster than you expect.",
+    "desc": "Every Monday, K1 sets up an outdoor screen and projects a film for the crowd. It’s free. Be there by 6pm to get a good seat. They have complimentary blankets and offer free popcorn but you buy your food and drinks.",
     "transport": "Uber / Boda Boda",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=K1+Klub+House+Nairobi"
   },
   {
     "cat": "recommended",
     "name": "Habesha Ethiopian Restaurant",
-    "desc": "Traditional Ethiopian dining in a peaceful garden setting. The injera is spongy and sour in all the right ways, the tibs are richly spiced, and eating with your hands from a shared platter makes the whole meal feel communal. Vegetarian options are excellent.",
+    "desc": "Traditional Ethiopian dining in a peaceful garden setting. The injera is spongy and sour in all the right ways, the tibs are richly spiced, and eating with your hands from a shared platter makes the whole meal feel communal. Manager's recommendation: the mixed dish, Tej (honey wine), Ambo spring water, and don't leave without experiencing the coffee ceremony.",
     "transport": "Uber / Boda Boda",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Habesha+Ethiopian+Restaurant+Nairobi"
   },
@@ -95,11 +95,60 @@
   {
     "cat": "recommended",
     "name": "Birds of Paradise",
-    "desc": "A boutique wellness and lifestyle venue offering everything from sound baths to breathwork sessions. The space is beautifully curated, the facilitators are warm and skilled, and the community around it is genuinely welcoming. Worth checking their schedule for upcoming workshops.",
+    "desc": "A unique, well curated studio offering aerial art, pole dance, aerial silks, hammock and hoop. The facilitators are warm and skilled, and the community around it is genuinely welcoming. Worth checking their schedule for upcoming workshops.",
     "ig": "https://instagram.com/birdsofparadise_ke",
     "igHandle": "@birdsofparadise_ke",
     "transport": "Uber / Boda Boda",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Birds+of+Paradise+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Hashmi Barbeque",
+    "desc": "Fresh, hot, yummy Indian food.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hashmi+Barbeque+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Pickled",
+    "desc": "Pickled has a vibe. When you walk in it's calm, it's green, it's very very nice. You end up staying longer than you planned without noticing. You will visit more than once. Highly recommend the hot honey halloumi, the Burrata Pesto, Bagel & Lox and Granola bowl.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pickled+Lavington+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "The Good Grain",
+    "desc": "A specialty coffee and pastry shop on the Slip Road off Waiyaki Way with carefully sourced beans and freshly baked goods. The space is small and focused, the baristas know their craft, and the pastries disappear fast — go early.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Good+Grain+Waiyaki+Way+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Geco Café (Kingara Road)",
+    "desc": "An intimate venue on Kingara Road known for live jazz and acoustic band performances. The setting is warm and unpretentious, the musicianship is high, and the cocktails are good. Check ahead for the performance schedule — it fills up on popular nights.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Geco+Cafe+Kingara+Road+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Suave Restaurant & Lounge",
+    "desc": "A contemporary dining spot that doubles as a cultural venue, hosting live music, art events and a hub for standup comedy. The food is solid, the interiors are designed with local artists' work, and the overall vibe feels like Nairobi's creative class at home.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Suave+Restaurant+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Afrofit Gym",
+    "desc": "A well-equipped gym at Delta Chambers in Westlands, just a 10-minute walk from the hotel. Great for keeping up your routine while travelling.",
+    "transport": "Walk (~10 min)",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Afrofit+Gym+Delta+Chambers+Westlands+Nairobi"
+  },
+  {
+    "cat": "wellness",
+    "name": "Afrofit Gym",
+    "desc": "A well-equipped gym at Delta Chambers in Westlands, just a 10-minute walk from the hotel. Great for keeping up your routine while travelling.",
+    "transport": "Walk (~10 min)",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Afrofit+Gym+Delta+Chambers+Westlands+Nairobi"
   },
   {
     "cat": "wellness",
@@ -175,6 +224,13 @@
   },
   {
     "cat": "food",
+    "name": "La Terraza",
+    "desc": "A vibrant spot at Promenade Mall on Rhapta Road, about a 15-minute walk from Kenya Continental. Great food, good drinks, and a lively terrace atmosphere that makes it worth the stroll.",
+    "transport": "Walk (~15 min)",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=La+Terraza+Promenade+Mall+Rhapta+Road+Nairobi"
+  },
+  {
+    "cat": "food",
     "name": "Kosewe (Ranalo Foods)",
     "desc": "Right here in the Kenya Continental compound. Classic Kenyan cuisine at its finest — the fried tilapia, ugali, and sukuma wiki are exactly what locals eat at home, only better. A must-try for any guest who wants to taste real Nairobi.",
     "transport": "Walk (On-site / same compound)",
@@ -186,20 +242,6 @@
     "desc": "A reliable café-bistro just minutes from the hotel, serving everything from morning coffee and fresh pastries to full dinners and cocktails. The menu is broad, the quality is consistent, and the outdoor terrace is a pleasant spot to people-watch.",
     "transport": "Walk (~2–5 min)",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Artcaffe+Rhapta+Road+Nairobi"
-  },
-  {
-    "cat": "food",
-    "name": "Romo House Restaurant & Lounge",
-    "desc": "A warm, relaxed dining spot at 30 Muthithi Road with a menu that delivers on flavour. The grilled red snapper and coconut rice are highlights, and the background music keeps things mellow. Ideal for a quiet dinner or a date night close to the hotel.",
-    "transport": "Walk (~8–10 min)",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Romo+House+30+Muthithi+Road+Nairobi"
-  },
-  {
-    "cat": "food",
-    "name": "The Node",
-    "desc": "A lush garden restaurant and lounge off Waiyaki Way with multiple bars, screens for sports, and a menu anchored by excellent pizzas and creative cocktails. Open from 6:30 AM to 2 AM daily, it works for breakfast, lunch, dinner, or a late-night drink.",
-    "transport": "Walk (~8–10 min)",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Node+Woodvale+Close+Nairobi"
   },
   {
     "cat": "food",
@@ -218,7 +260,7 @@
   {
     "cat": "food",
     "name": "Beit e Selam",
-    "desc": "A garden-style Middle Eastern and Mediterranean venue in Westlands with a menu built around sharing plates. The mezze spread is generous, the grills are done right, and the courtyard setting makes a weeknight dinner feel like an occasion.",
+    "desc": "Food and drinks like their name are a reflection of Nairobi and influenced by the many culinary accents of the African continent. Great place to have a coffee, work or catch up with friends.",
     "transport": "Uber / Boda Boda",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Beit+e+Selam+Westlands+Nairobi"
   },
@@ -386,7 +428,7 @@
   {
     "cat": "culture",
     "name": "Monday Movie Nights at K1",
-    "desc": "A weekly outdoor screening night at K1 Klub House in Westlands. The atmosphere is communal, the drinks are cheap, and it’s a genuinely fun way to start the week. Screenings begin after dark — grab a seat early for the best view.",
+    "desc": "Every Monday, K1 sets up an outdoor screen and projects a film for the crowd. It’s free. Be there by 6pm to get a good seat. They have complimentary blankets and offer free popcorn but you buy your food and drinks.",
     "transport": "Uber / Boda Boda",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=K1+Klub+House+Ojijo+Road"
   },
@@ -435,7 +477,7 @@
   {
     "cat": "outdoor",
     "name": "Giraffe Centre",
-    "desc": "A conservation sanctuary on Duma Road in Langata where you can feed endangered Rothschild giraffes from a raised platform, eye to eye. The visit takes about 30 minutes and includes a nature trail and café. Card payment only — no cash.",
+    "desc": "Have you ever wanted to French kiss a giraffe? A conservation sanctuary on Duma Road in Langata where you can feed endangered Rothschild giraffes from a raised platform, eye to eye. The visit takes about 30 minutes and includes a nature trail and café. Card payment only — no cash.",
     "transport": "Uber / Boda Boda",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Giraffe+Centre+Duma+Road+Langata"
   },
@@ -456,7 +498,7 @@
   {
     "cat": "karen",
     "name": "Giraffe Centre",
-    "desc": "A conservation sanctuary dedicated to Rothschild giraffes with hand-feeding platforms that put you at eye level with these gentle giants. The attached nature trail is worth exploring, and the on-site café serves decent coffee. Family-friendly and unforgettable.",
+    "desc": "Have you ever wanted to French kiss a giraffe? A conservation sanctuary dedicated to Rothschild giraffes with hand-feeding platforms that put you at eye level with these gentle giants. The attached nature trail is worth exploring, and the on-site café serves decent coffee. Family-friendly and unforgettable.",
     "transport": "Uber / Boda Boda",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Giraffe+Centre+Duma+Road+Langata"
   },

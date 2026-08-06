@@ -28,7 +28,7 @@ function VenueCard({ venue }: { venue: Venue }) {
   return (
     <div
       className="py-5"
-      style={{ borderBottom: "1px solid rgba(15,50,40,0.08)" }}
+      style={{ borderBottom: "1px solid rgba(13,61,56,0.08)" }}
     >
       <div
         className="font-[var(--font-cormorant)] font-semibold text-[20px] leading-[1.25]"
@@ -40,16 +40,20 @@ function VenueCard({ venue }: { venue: Venue }) {
         <div
           className="text-[14px] leading-[1.65] mt-1.5"
           style={{ color: "#5a5049" }}
-        >
-          {venue.desc}
-        </div>
+          dangerouslySetInnerHTML={{
+            __html: venue.desc.replace(
+              /\bfree\b/gi,
+              '<span style="color:#a8703f;font-weight:600">$&</span>'
+            ),
+          }}
+        />
       )}
       <div className="flex flex-wrap items-center gap-2.5 mt-2.5">
         <div
           className="text-[11.5px] rounded-xl px-2.5 py-1"
           style={{
-            color: "#0f3228",
-            background: "rgba(15,50,40,0.07)",
+            color: "#0d3d38",
+            background: "rgba(13,61,56,0.07)",
           }}
         >
           {venue.transport}
@@ -99,10 +103,10 @@ export default function GuestGuide() {
       {/* Header */}
       <div
         className="flex items-center justify-center"
-        style={{ background: "#0f3228", padding: "36px 28px" }}
+        style={{ background: "#0d3d38", padding: "36px 28px" }}
       >
         <Image
-          src="/Kenya-Continental-Hotel-Gold-Transparent.png"
+          src="/Kenya-Continental-Hotel-White-Transparent.png"
           alt="Kenya Continental Hotel"
           width={280}
           height={81}
@@ -115,13 +119,13 @@ export default function GuestGuide() {
       <div style={{ padding: "32px 28px 20px" }}>
         <div
           className="font-[var(--font-cormorant)] text-[28px] font-semibold leading-[1.2]"
-          style={{ color: "#0f3228" }}
+          style={{ color: "#0d3d38" }}
         >
           Your Nairobi
         </div>
         <div
           className="font-[var(--font-cormorant)] text-[28px] font-semibold leading-[1.2] italic"
-          style={{ color: "#0f3228" }}
+          style={{ color: "#0d3d38" }}
         >
           Little Black Book
         </div>
@@ -143,9 +147,9 @@ export default function GuestGuide() {
       <div
         style={{
           padding: "20px 28px",
-          background: "rgba(15,50,40,0.04)",
-          borderTop: "1px solid rgba(15,50,40,0.06)",
-          borderBottom: "1px solid rgba(15,50,40,0.06)",
+          background: "rgba(13,61,56,0.04)",
+          borderTop: "1px solid rgba(13,61,56,0.06)",
+          borderBottom: "1px solid rgba(13,61,56,0.06)",
         }}
       >
         <div
@@ -183,7 +187,7 @@ export default function GuestGuide() {
         style={{
           background: "#f6f3ee",
           padding: "14px 0 10px",
-          borderBottom: "1px solid rgba(15,50,40,0.1)",
+          borderBottom: "1px solid rgba(13,61,56,0.1)",
         }}
       >
         <div
@@ -202,8 +206,8 @@ export default function GuestGuide() {
                   borderRadius: 20,
                   border: active
                     ? "none"
-                    : "1px solid rgba(15,50,40,0.2)",
-                  background: active ? "#0f3228" : "transparent",
+                    : "1px solid rgba(13,61,56,0.2)",
+                  background: active ? "#0d3d38" : "transparent",
                   color: active ? "#f7f4ee" : "#3a3a3a",
                   fontSize: "12.5px",
                   fontWeight: active ? 500 : 400,
@@ -255,7 +259,7 @@ export default function GuestGuide() {
                   {cat.icon}
                 </div>
                 <div
-                  className="text-[11px] uppercase tracking-[4px]"
+                  className={`${cat.key === "recommended" ? "text-[18px]" : "text-[11px]"} uppercase tracking-[4px]`}
                   style={{ opacity: 0.5 }}
                 >
                   {cat.icon}
@@ -298,7 +302,7 @@ export default function GuestGuide() {
       {/* Footer */}
       <div
         style={{
-          background: "#0f3228",
+          background: "#0d3d38",
           color: "#f7f4ee",
           padding: "32px 28px",
         }}
