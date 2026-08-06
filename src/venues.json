@@ -144,6 +144,20 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Afrofit+Gym+Delta+Chambers+Westlands+Nairobi"
   },
   {
+    "cat": "recommended",
+    "name": "Quiver Lounge",
+    "desc": "A stylish rooftop lounge on Ngong Road with craft cocktails, great music, and a crowd that knows how to have a good time. The views of the city at night are a bonus. Perfect for a Friday or Saturday night out.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Quiver+Lounge+Ngong+Road+Nairobi"
+  },
+  {
+    "cat": "recommended",
+    "name": "Bar Next Door (BND)",
+    "desc": "A cozy neighbourhood bar on Othaya Road in Kileleshwa with a laid-back atmosphere, solid cocktails, and a crowd that feels like regulars even on your first visit. The kind of place where one drink turns into three.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar+Next+Door+BND+Othaya+Road+Kileleshwa+Nairobi"
+  },
+  {
     "cat": "wellness",
     "name": "Afrofit Gym",
     "desc": "A well-equipped gym at Delta Chambers in Westlands, just a 10-minute walk from the hotel. Great for keeping up your routine while travelling.",
@@ -165,6 +179,13 @@
     "igHandle": "@birdsofparadise_ke",
     "transport": "Uber / Boda Boda",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Birds+of+Paradise+Nairobi"
+  },
+  {
+    "cat": "nightlife",
+    "name": "Quiver Lounge",
+    "desc": "A stylish rooftop lounge on Ngong Road with craft cocktails, great music, and a crowd that knows how to have a good time. The views of the city at night are a bonus. Perfect for a Friday or Saturday night out.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Quiver+Lounge+Ngong+Road+Nairobi"
   },
   {
     "cat": "nightlife",
