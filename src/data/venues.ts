@@ -17,7 +17,7 @@ export interface Category {
 }
 
 export const categories: Category[] = [
-  { key: "recommended", label: "Manager Recommended", icon: "🤌", headerBg: "#0d3d38" },
+  { key: "recommended", label: "Manager Recommended", icon: "🤌🏾", headerBg: "#0d3d38" },
   { key: "wellness", label: "Wellness", icon: "🧘🏿", headerBg: "#1a5650" },
   { key: "nightlife", label: "Nightlife & Lounges", icon: "\uD83C\uDF19", headerBg: "#0d3d38" },
   { key: "food", label: "Restaurants", icon: "\uD83C\uDF7D\uFE0F", headerBg: "#a8703f" },

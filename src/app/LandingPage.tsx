@@ -266,8 +266,7 @@ function About() {
         }}
       >
         In 1948, these buildings began as a local clinic. In 1982, they became
-        something new: a family-owned hotel built on care, community, and good
-        breakfasts.
+        something new: a family-owned hotel built on good food.
       </p>
       <p
         style={{
@@ -289,7 +288,7 @@ function About() {
         }}
       >
         We&apos;re made for travelers who want to feel at home — whether
-        you&apos;re here for business or to explore. We&apos;re walking distance
+        you&apos;re here for business or to explore. We&apos;re a walking distance
         to Westlands, and just 35 minutes from JKIA using the Expressway.
       </p>
       <p
@@ -442,7 +441,7 @@ function GuestGuideCTA() {
       </div>
       <div className="lp-cta-image">
         <Image
-          src="/cafe2.webp"
+          src="/gallery/lounge.jpeg"
           alt="Guest guide preview"
           fill
           sizes="(max-width: 768px) 100vw, 320px"

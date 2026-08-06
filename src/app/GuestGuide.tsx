@@ -177,6 +177,16 @@ export default function GuestGuide() {
             style={{ color: "#a8703f" }}
           >
             @in.nairobi
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://instagram.com/eventguide_nairobi"
+            target="_blank"
+            rel="noopener"
+            className="not-italic font-medium"
+            style={{ color: "#a8703f" }}
+          >
+            @eventguide_nairobi
           </a>
         </div>
       </div>
