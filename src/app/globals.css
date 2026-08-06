@@ -99,6 +99,8 @@ a:hover {
   background: #fff;
   padding: 80px 56px;
   max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .lp-gallery {
