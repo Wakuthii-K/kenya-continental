@@ -439,15 +439,6 @@ function GuestGuideCTA() {
           View Guest Guide &rarr;
         </Link>
       </div>
-      <div className="lp-cta-image">
-        <Image
-          src="/gallery/lounge.jpeg"
-          alt="Guest guide preview"
-          fill
-          sizes="(max-width: 768px) 100vw, 320px"
-          style={{ objectFit: "cover" }}
-        />
-      </div>
     </section>
   );
 }
