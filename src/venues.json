@@ -158,6 +158,15 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar+Next+Door+BND+Othaya+Road+Kileleshwa+Nairobi"
   },
   {
+    "cat": "recommended",
+    "name": "Nairobi Matatu Tour",
+    "desc": "You've probably seen colourful, vibey buses along the road that look like they come out of a sci-fi film — well, we call them nganya, and you can experience one. Nairobi's first audio-guided private matatu experience happens every Saturday. Booking is required.",
+    "transport": "Saturdays only",
+    "mapUrl": "https://matatutournairobi.com/book",
+    "ig": "https://instagram.com/matatutour_nairobi",
+    "igHandle": "@matatutour_nairobi"
+  },
+  {
     "cat": "wellness",
     "name": "Afrofit Gym",
     "desc": "A well-equipped gym at Delta Chambers in Westlands, just a 10-minute walk from the hotel. Great for keeping up your routine while travelling.",
@@ -403,6 +412,15 @@
     "desc": "A premium lifestyle mall on Mwanzi Road with international brands like Tommy Hilfiger, Hugo Boss, Mango, and Swarovski. The restaurants are excellent, the cinema is modern, and there’s a weekly Maasai market worth timing your visit for.",
     "transport": "Uber / Boda Boda",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Westgate+Shopping+Mall+Mwanzi+Road"
+  },
+  {
+    "cat": "culture",
+    "name": "Nairobi Matatu Tour",
+    "desc": "You've probably seen colourful, vibey buses along the road that look like they come out of a sci-fi film — well, we call them nganya, and you can experience one. Nairobi's first audio-guided private matatu experience happens every Saturday. Booking is required.",
+    "transport": "Saturdays only",
+    "mapUrl": "https://matatutournairobi.com/book",
+    "ig": "https://instagram.com/matatutour_nairobi",
+    "igHandle": "@matatutour_nairobi"
   },
   {
     "cat": "culture",

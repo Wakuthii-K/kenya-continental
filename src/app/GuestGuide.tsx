@@ -65,7 +65,7 @@ function VenueCard({ venue }: { venue: Venue }) {
           className="text-[11.5px] no-underline flex items-center gap-1"
           style={{ color: "#a8703f" }}
         >
-          📍 Google Maps
+          {venue.mapUrl.includes("google.com") ? "📍 Google Maps" : "🔗 Book Here"}
         </a>
         {venue.ig && (
           <a
