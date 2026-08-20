@@ -30,6 +30,27 @@ function VenueCard({ venue }: { venue: Venue }) {
       className="py-5"
       style={{ borderBottom: "1px solid rgba(13,61,56,0.08)" }}
     >
+      {venue.image && (
+        <div className="mb-3">
+          <div className="rounded-lg overflow-hidden">
+            <Image
+              src={venue.image}
+              alt={venue.name}
+              width={424}
+              height={600}
+              className="w-full h-auto"
+            />
+          </div>
+          {venue.imageCaption && (
+            <div
+              className="text-[11.5px] italic mt-1.5"
+              style={{ color: "#8a8079" }}
+            >
+              {venue.imageCaption}
+            </div>
+          )}
+        </div>
+      )}
       <div
         className="font-[var(--font-cormorant)] font-semibold text-[20px] leading-[1.25]"
         style={{ color: "#2b241d" }}

@@ -6,6 +6,8 @@ export interface Venue {
   mapUrl: string;
   ig?: string;
   igHandle?: string;
+  image?: string;
+  imageCaption?: string;
 }
 
 export interface Category {

@@ -10,8 +10,10 @@
     "cat": "recommended",
     "name": "ibis Styles (Saturday Night Live Band)",
     "desc": "Ibis Styles across from our hotel hosts a live band that draws a loyal local crowd. The energy is infectious, the drinks are cold and the setting is relaxed enough to stay late and crawl back to your room.",
+    "imageCaption": "Ibis as seen from the Kenya Continental courtyard",
     "transport": "Walk (~1 min)",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=ibis+Styles+Nairobi+Westlands"
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=ibis+Styles+Nairobi+Westlands",
+    "image": "/ibisstyles.jpeg"
   },
   {
     "cat": "recommended",
