@@ -258,7 +258,7 @@ export default function GuestGuide() {
         {categories.map((cat) => {
           const catVenues = (venues as Venue[]).filter(
             (v) => v.cat === cat.key
-          );
+          ).sort((a, b) => (b.image ? 1 : 0) - (a.image ? 1 : 0));
           if (vibe !== "all" && vibe !== cat.key) return null;
           if (catVenues.length === 0) return null;
 

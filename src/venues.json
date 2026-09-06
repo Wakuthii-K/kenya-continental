@@ -34,21 +34,27 @@
     "name": "Beit e Selam",
     "desc": "Food and drinks like their name are a reflection of Nairobi and influenced by the many culinary accents of the African continent. Great place to have a coffee, work or catch up with friends.",
     "transport": "Uber / Boda Boda",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Beit+e+Selam+Nairobi"
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Beit+e+Selam+Nairobi",
+    "image": "/beit e salem.png",
+    "imageCaption": "Al fresco dining under the pergola"
   },
   {
     "cat": "recommended",
     "name": "Furusato Japanese Restaurant",
     "desc": "One of Nairobi’s longest-running Japanese restaurants, known for its authenticity. The sushi is fresh, the teppanyaki is theatrical, and the menu runs deep enough to reward repeat visits. A favourite among the Japanese expat community, which tells you everything.",
     "transport": "Uber / Boda Boda",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Furusato+Japanese+Restaurant+Nairobi"
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Furusato+Japanese+Restaurant+Nairobi",
+    "image": "/Furusato.jpg",
+    "imageCaption": "The garden courtyard with its iconic giraffe sculpture"
   },
   {
     "cat": "recommended",
     "name": "Unseen Nairobi",
     "desc": "An independent rooftop cinema screening art-house, African, and global indie films under the stars. The cocktail bar is excellent, the crowd is creative, and the programming is thoughtful. Check their schedule — screenings sell out quickly.",
     "transport": "Uber / Boda Boda",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Unseen+Nairobi"
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Unseen+Nairobi",
+    "image": "/unseen.jpg",
+    "imageCaption": "Rooftop vibes with Westlands skyline views"
   },
   {
     "cat": "recommended",
@@ -76,14 +82,18 @@
     "name": "Gochi Sake",
     "desc": "A refined sake bar and small-plates restaurant offering a curated selection of Japanese sakes alongside inventive bites. The atmosphere is intimate and the staff are knowledgeable enough to guide you through unfamiliar pairings. A standout for date nights.",
     "transport": "Uber / Boda Boda",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gichi+Sake+Nairobi"
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gichi+Sake+Nairobi",
+    "image": "/gochi sake.jpg",
+    "imageCaption": "Beautifully plated small bites by candlelight"
   },
   {
     "cat": "recommended",
     "name": "A Little Bit of Everything (A.B.O.E)",
     "desc": "A trendy gastropub that lives up to its name with a menu spanning burgers, sushi, tacos, and more. The craft cocktails are creative and well-made, and the atmosphere is lively without being overwhelming. Great for groups who can’t agree on a cuisine.",
     "transport": "Uber / Boda Boda",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=ABOE+Restaurant+Nairobi"
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=ABOE+Restaurant+Nairobi",
+    "image": "/ABOE.jpg",
+    "imageCaption": "Pizza, cocktails, and long conversations on the garden terrace"
   },
   {
     "cat": "recommended",
@@ -115,7 +125,9 @@
     "name": "Pickled",
     "desc": "Pickled has a vibe. When you walk in it's calm, it's green, it's very very nice. You end up staying longer than you planned without noticing. You will visit more than once. Highly recommend the hot honey halloumi, the Burrata Pesto, Bagel & Lox and Granola bowl.",
     "transport": "Uber / Boda Boda",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pickled+Lavington+Nairobi"
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pickled+Lavington+Nairobi",
+    "image": "/pickled.jpg",
+    "imageCaption": "A fresh sandwich in the sun-drenched garden"
   },
   {
     "cat": "recommended",
@@ -129,7 +141,9 @@
     "name": "Geco Café (Kingara Road)",
     "desc": "An intimate venue on Kingara Road known for live jazz and acoustic band performances. The setting is warm and unpretentious, the musicianship is high, and the cocktails are good. Check ahead for the performance schedule — it fills up on popular nights.",
     "transport": "Uber / Boda Boda",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Geco+Cafe+Kingara+Road+Nairobi"
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Geco+Cafe+Kingara+Road+Nairobi",
+    "image": "/Geco Cafe.jpg",
+    "imageCaption": "Live band in full swing at Geco's intimate stage"
   },
   {
     "cat": "recommended",
@@ -158,15 +172,6 @@
     "desc": "A cozy neighbourhood bar on Othaya Road in Kileleshwa with a laid-back atmosphere, solid cocktails, and a crowd that feels like regulars even on your first visit. The kind of place where one drink turns into three.",
     "transport": "Uber / Boda Boda",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bar+Next+Door+BND+Othaya+Road+Kileleshwa+Nairobi"
-  },
-  {
-    "cat": "recommended",
-    "name": "Nairobi Matatu Tour",
-    "desc": "You've probably seen colourful, vibey buses along the road that look like they come out of a sci-fi film — well, we call them nganya, and you can experience one. Nairobi's first audio-guided private matatu experience happens every Saturday. Booking is required.",
-    "transport": "Saturdays only",
-    "mapUrl": "https://matatutournairobi.com/book",
-    "ig": "https://instagram.com/matatutour_nairobi",
-    "igHandle": "@matatutour_nairobi"
   },
   {
     "cat": "wellness",
@@ -287,14 +292,18 @@
     "name": "INTI — A Nikkei Experience",
     "desc": "High-end Japanese-Peruvian fusion at Delta Corner on Waiyaki Way. The ceviches are bright and precise, the maki rolls are inventive, and the cocktail programme draws from both traditions. One of the more distinctive dining experiences in Westlands.",
     "transport": "Uber / Boda Boda",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=INTI+Delta+Offices+Waiyaki+Way"
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=INTI+Delta+Offices+Waiyaki+Way",
+    "image": "/INTI.jpg",
+    "imageCaption": "The stunning glass-domed dining room at dusk"
   },
   {
     "cat": "food",
     "name": "Beit e Selam",
     "desc": "Food and drinks like their name are a reflection of Nairobi and influenced by the many culinary accents of the African continent. Great place to have a coffee, work or catch up with friends.",
     "transport": "Uber / Boda Boda",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Beit+e+Selam+Westlands+Nairobi"
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Beit+e+Selam+Westlands+Nairobi",
+    "image": "/beit e salem.png",
+    "imageCaption": "Al fresco dining under the pergola"
   },
   {
     "cat": "food",
@@ -417,19 +426,12 @@
   },
   {
     "cat": "culture",
-    "name": "Nairobi Matatu Tour",
-    "desc": "You've probably seen colourful, vibey buses along the road that look like they come out of a sci-fi film — well, we call them nganya, and you can experience one. Nairobi's first audio-guided private matatu experience happens every Saturday. Booking is required.",
-    "transport": "Saturdays only",
-    "mapUrl": "https://matatutournairobi.com/book",
-    "ig": "https://instagram.com/matatutour_nairobi",
-    "igHandle": "@matatutour_nairobi"
-  },
-  {
-    "cat": "culture",
     "name": "Geco Café (Kingara Road)",
     "desc": "An intimate venue on Kingara Road known for live jazz and acoustic band performances. The setting is warm and unpretentious, the musicianship is high, and the cocktails are good. Check ahead for the performance schedule — it fills up on popular nights.",
     "transport": "Uber / Boda Boda",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Geco+Cafe+Kingara+Road+Nairobi"
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Geco+Cafe+Kingara+Road+Nairobi",
+    "image": "/Geco Cafe.jpg",
+    "imageCaption": "Live band in full swing at Geco's intimate stage"
   },
   {
     "cat": "culture",
@@ -443,7 +445,9 @@
     "name": "Unseen Nairobi",
     "desc": "An independent rooftop cinema and cultural space showing African and global art films under the open sky. The cocktail programme is thoughtful, the audience is engaged, and the screenings are curated with real care. One of the city’s most original cultural spaces.",
     "transport": "Uber / Boda Boda",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Unseen+Nairobi"
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Unseen+Nairobi",
+    "image": "/unseen.jpg",
+    "imageCaption": "Rooftop vibes with Westlands skyline views"
   },
   {
     "cat": "culture",
