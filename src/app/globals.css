@@ -126,6 +126,8 @@ a:hover {
 }
 .lp-founders-text {
   max-width: 620px;
+  text-align: center;
+  margin: 0 auto;
 }
 .lp-founders-lead {
   font: italic 21px/1.55 var(--font-libre), serif;
