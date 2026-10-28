@@ -23,10 +23,25 @@ function Lightbox({
       if (e.key === "ArrowLeft") onPrev();
       if (e.key === "ArrowRight") onNext();
     };
+    let touchStartX = 0;
+    const handleTouchStart = (e: TouchEvent) => {
+      touchStartX = e.touches[0].clientX;
+    };
+    const handleTouchEnd = (e: TouchEvent) => {
+      const dx = e.changedTouches[0].clientX - touchStartX;
+      if (Math.abs(dx) > 50) {
+        if (dx > 0) onPrev();
+        else onNext();
+      }
+    };
     window.addEventListener("keydown", handleKey);
+    window.addEventListener("touchstart", handleTouchStart, { passive: true });
+    window.addEventListener("touchend", handleTouchEnd, { passive: true });
     document.body.style.overflow = "hidden";
     return () => {
       window.removeEventListener("keydown", handleKey);
+      window.removeEventListener("touchstart", handleTouchStart);
+      window.removeEventListener("touchend", handleTouchEnd);
       document.body.style.overflow = "";
     };
   }, [onClose, onPrev, onNext]);
@@ -320,66 +335,177 @@ function About() {
   );
 }
 
+function Founders() {
+  return (
+    <section className="lp-founders">
+      <div className="lp-founders-photo-wrap">
+        <div className="lp-founders-photo-frame">
+          <Image
+            src="/images/founders.png"
+            alt="James and Helen Nderitu, founders of Kenya Continental Hotel"
+            width={420}
+            height={560}
+            style={{ width: "100%", height: 560, objectFit: "cover", objectPosition: "center top", display: "block" }}
+          />
+          <p
+            style={{
+              font: "italic 15px/1 var(--font-libre), serif",
+              color: "#4a5a56",
+              textAlign: "center",
+              margin: "20px 0 0",
+            }}
+          >
+            James &amp; Helen Nderitu
+          </p>
+        </div>
+      </div>
+      <div className="lp-founders-text">
+        <p
+          style={{
+            font: "300 13px/1 var(--font-source), sans-serif",
+            color: "#1d8174",
+            letterSpacing: 4,
+            textTransform: "uppercase",
+            margin: "0 0 20px",
+          }}
+        >
+          Our Founders
+        </p>
+        <h2
+          style={{
+            font: "400 40px/1.25 var(--font-libre), serif",
+            color: "#1a2e2a",
+            margin: "0 0 24px",
+          }}
+        >
+          Our Story
+        </h2>
+        <p className="lp-founders-lead">
+          Kenya Continental Hotel is more than a hotel — it is a family legacy, built on love.
+        </p>
+        <p className="lp-founders-body">
+          This heritage property first opened its doors in 1947, not as a hotel, but as a community hospital serving the people of Westlands. It changed hands over the years until 1982, when it found its true home.
+        </p>
+        <p className="lp-founders-body">
+          In 1982, our parents, James and Helen Nderitu saw what no one else could see. With a shared love for nyama choma, good local food, live music and joyful dances, they took this old hospital and lovingly transformed it into a hotel.
+        </p>
+        <p className="lp-founders-body">
+          What followed is the Westlands we still remember so fondly. Through the 80s and 90s, Kenya Continental became the heart of the neighborhood — the famous nyama choma bar, the lively outdoor bar, the laughter we shared while watching the legendary Vitimbi comedians, and the soulful country music and mugithi tunes of the iconic one-man guitar maestros. It was simple, warm, and full of life — just like Helen and James.
+        </p>
+        <p className="lp-founders-body">
+          Today, that same spirit lives on. As the second generation, we are honoured to carry forward our parents&apos; dream. The values they instilled remain unchanged: warm, genuine hospitality, good honest food, and comfortable rooms at a kind price.
+        </p>
+        <p className="lp-founders-body">
+          In the midst of the noise and high-rises of the new Westlands, we strive to keep this icon standing — a peaceful, nostalgic haven where everyone is welcome, and everyone belongs.
+        </p>
+        <p className="lp-founders-closing">
+          Welcome home.
+        </p>
+      </div>
+    </section>
+  );
+}
+
 function Gallery() {
   const images = [
-    { src: "/gallery/KCH%20DSC07919_HDR%201.jpg", alt: "Hotel exterior" },
-    { src: "/gallery/KCH%20DSC07925_HDR.jpg", alt: "Hotel view" },
+    { src: "/gallery/KCH%20DSC07919_HDR%201.jpg", alt: "Hotel reception" },
+    { src: "/gallery/lounge-2.jpeg", alt: "Hotel lounge" },
+    { src: "/gallery/garden-1.jpeg", alt: "Hotel garden" },
+    { src: "/gallery/garden-2.jpeg", alt: "Hotel garden path" },
+    { src: "/gallery/courtyard.jpeg", alt: "Hotel courtyard" },
+    { src: "/gallery/courtyard-night.jpeg", alt: "Hotel courtyard at night" },
+  ];
+
+  const allImages = [
+    ...images,
     { src: "/gallery/KCH%20DSC07929_HDR%201.jpg", alt: "Hotel room" },
+    { src: "/gallery/lounge.jpeg", alt: "Hotel bar" },
+    { src: "/gallery/KCH%20DSC07925_HDR.jpg", alt: "Hotel exterior" },
+    { src: "/gallery/KCH%20DSC07985_HDR%201.jpg", alt: "Hotel grounds" },
+    { src: "/gallery/KCH%20DSC08126_HDR%201.jpg", alt: "Hotel breakfast" },
     { src: "/gallery/KCH%20DSC07949_HDR%201.jpg", alt: "Hotel grounds" },
     { src: "/gallery/KCH%20DSC07967_HDR%201.jpg", alt: "Hotel amenities" },
-    { src: "/gallery/KCH%20DSC07985_HDR%201.jpg", alt: "Hotel garden" },
     { src: "/gallery/KCH%20DSC08075_HDR%201.jpg", alt: "Hotel interior" },
     { src: "/gallery/KCH%20DSC08099_HDR%201.jpg", alt: "Hotel lounge" },
-    { src: "/gallery/KCH%20DSC08126_HDR%201.jpg", alt: "Hotel dining" },
     { src: "/gallery/KCH%20DSC08136.jpg", alt: "Hotel details" },
-    { src: "/gallery/lounge.jpeg", alt: "Hotel lounge area" },
   ];
 
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
   const onClose = useCallback(() => setLightboxIndex(null), []);
   const onPrev = useCallback(
-    () => setLightboxIndex((i) => (i !== null ? (i - 1 + images.length) % images.length : null)),
-    [images.length]
+    () => setLightboxIndex((i) => (i !== null ? (i - 1 + allImages.length) % allImages.length : null)),
+    [allImages.length]
   );
   const onNext = useCallback(
-    () => setLightboxIndex((i) => (i !== null ? (i + 1) % images.length : null)),
-    [images.length]
+    () => setLightboxIndex((i) => (i !== null ? (i + 1) % allImages.length : null)),
+    [allImages.length]
   );
 
-  const thumbStyle = { position: "relative" as const, borderRadius: 8, overflow: "hidden" as const, cursor: "pointer" };
-
   return (
-    <section id="gallery" className="lp-gallery">
-      <h3
-        style={{
-          font: "400 28px/1.3 var(--font-libre), serif",
-          color: "#0d3d38",
-          margin: "0 0 28px",
-        }}
-      >
-        Gallery
-      </h3>
-      <div className="lp-gallery-masonry">
-        <div style={{ ...thumbStyle, gridRow: "1/3" }} onClick={() => setLightboxIndex(0)}>
-          <Image src={images[0].src} alt={images[0].alt} fill sizes="(max-width: 768px) 100vw, 50vw" style={{ objectFit: "cover" }} />
-        </div>
-        {images.slice(1, 5).map((img, i) => (
-          <div key={i} style={thumbStyle} onClick={() => setLightboxIndex(i + 1)}>
-            <Image src={img.src} alt={img.alt} fill sizes="(max-width: 768px) 50vw, 25vw" style={{ objectFit: "cover" }} />
-          </div>
-        ))}
+    <section id="gallery" className="lp-gallery-4c">
+      <div className="lp-gallery-teal">
+        <p
+          style={{
+            font: "300 13px/1 var(--font-source), sans-serif",
+            color: "rgba(255,255,255,.6)",
+            letterSpacing: 4,
+            textTransform: "uppercase",
+            margin: "0 0 18px",
+          }}
+        >
+          Gallery
+        </p>
+        <h3
+          style={{
+            font: "400 32px/1.3 var(--font-libre), serif",
+            color: "#fff",
+            margin: "0 0 20px",
+          }}
+        >
+          Tucked away on a leafy street
+        </h3>
+        <p
+          style={{
+            font: "300 15px/1.8 var(--font-source), sans-serif",
+            color: "rgba(255,255,255,.8)",
+            margin: "0 0 32px",
+          }}
+        >
+          A cozy, pocket friendly Bed &amp; Breakfast in the heart of Westlands — walking distance to Westlands Business Area, 35 minutes from JKIA.
+        </p>
+        <button
+          onClick={() => setLightboxIndex(0)}
+          style={{
+            font: "500 14px/1 var(--font-source), sans-serif",
+            color: "#1d8174",
+            background: "#fff",
+            padding: "14px 28px",
+            borderRadius: 4,
+            border: "none",
+            cursor: "pointer",
+            alignSelf: "flex-start",
+          }}
+        >
+          See all photos &rarr;
+        </button>
       </div>
-      <div className="lp-gallery-grid">
-        {images.slice(5).map((img, i) => (
-          <div key={i} style={thumbStyle} onClick={() => setLightboxIndex(i + 5)}>
-            <Image src={img.src} alt={img.alt} fill sizes="(max-width: 768px) 50vw, 33vw" style={{ objectFit: "cover" }} />
+      <div className="lp-gallery-grid-4c">
+        {images.map((img, i) => (
+          <div key={i} className="lp-gallery-cell" onClick={() => setLightboxIndex(i)}>
+            <Image
+              src={img.src}
+              alt={img.alt}
+              fill
+              sizes="(max-width: 900px) 50vw, 33vw"
+              style={{ objectFit: "cover" }}
+            />
           </div>
         ))}
       </div>
       {lightboxIndex !== null && (
         <Lightbox
-          images={images}
+          images={allImages}
           index={lightboxIndex}
           onClose={onClose}
           onPrev={onPrev}
@@ -524,8 +650,9 @@ export default function LandingPage() {
       <NavBar />
       <Hero />
       <About />
-      <Gallery />
+      <Founders />
       <GuestGuideCTA />
+      <Gallery />
       <Footer />
     </div>
   );
