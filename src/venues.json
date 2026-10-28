@@ -1,6 +1,15 @@
 [
   {
     "cat": "recommended",
+    "name": "Private Nairobi CBD or Museum Tour by Hinges of Time",
+    "desc": "Nairobi has a rich history permanently engraved in its architecture and it deserves to be told from the eyes of a historian. Hinges of Time offers private walking tours through the CBD and National Museum, bringing the city’s past to life. $50pp for individuals/couples, or $40pp for groups of 3+. Booking required via WhatsApp.",
+    "transport": "Uber / Boda Boda",
+    "mapUrl": "https://wa.me/254711360229?text=Hello%2C%20I%27d%20like%20to%20book%20a%20private%20tour%20with%20Hinges%20of%20Time",
+    "ig": "https://www.instagram.com/reel/Dd6cBt-OX84/",
+    "igHandle": "Preview Tour"
+  },
+  {
+    "cat": "recommended",
     "name": "Padel (Chandarana Rhapta Road)",
     "desc": "Popular indoor/outdoor padel tennis courts at Rhapta Square, just down the road from the hotel. Courts are well-maintained and bookable by the hour. A great way to start the morning or burn off a long lunch.",
     "transport": "Walk (~15 min)",
